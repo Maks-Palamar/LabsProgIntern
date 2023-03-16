@@ -1,0 +1,166 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Каталог автосалону</title>
+	<style>
+		body {
+			background-image: url('background.jpg');
+			background-repeat: no-repeat;
+			background-size: cover;
+		}
+		table {
+			border-collapse: collapse;
+			margin: auto;
+			background-color: white;
+			opacity: 0.9;
+			box-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
+		}
+		th, td {
+			padding: 10px;
+			text-align: center;
+			border: 1px solid black;
+		}
+		th {
+			background-color: #6699cc;
+			color: white;
+		}
+		img {
+			width: 100%;
+			height: auto;
+		}
+	</style>
+</head>
+<body>
+	<h1 style="text-align: center; color: rgb(3, 0, 0);">Каталог автосалону</h1>
+	<table>
+		<thead>
+			<tr>
+				<th>Марка авто</th>
+				<th>Модель</th>
+				<th>Рік випуску</th>
+				<th>Ціна</th>
+				<th>Фото</th>
+			</tr>
+		</thead>
+		<tbody>
+			<tr>
+				<td rowspan="2">Audi</td>
+				
+				<td>A4</td>
+				<td>2019</td>
+				<td>900 000 грн</td>
+				<td><img src="./image/Audi_A4__483130683f.jpg" alt="Audi A4"></td>
+			</tr>
+			<tr>
+				
+				<td>A6</td>
+				<td>2020</td>
+				<td>1 200 000 грн</td>
+				<td><img src="./image/audi_a6__474936008f.jpg" alt="Audi A6"></td>
+			</tr>
+			<tr>
+				<td>BMW</td>
+				<td>X5</td>
+				<td>2021</td>
+				<td>2 500 000 грн</td>
+				<td><img src="./image/IMG_4547.JPG.jpg" alt="BMW X5"></td>
+			</tr>
+			<tr>
+				<td>Mercedes-Benz</td>
+				<td>S-Class</td>
+				<td>2022</td>
+				<td>3 500 000 грн</td>
+				<td><img src="./image/mercedes_benz_s_class_s_550_amg_104917_800x600.jpg" alt="Mercedes-Benz S-Class"></td>
+			</tr>
+			<tr>
+				<td rowspan="2">Toyota</td>
+				<td>Camry</td>
+				<td>2020</td>
+				<td>900 000 грн</td>
+				<td><img src="./image/toyota-camry-2018_2.jpg" alt="Toyota Camry"></td>
+			</tr>
+			<tr>
+				<td>Corolla</td>
+				<td>2021</td>
+				<td>800 000 грн</td>
+				<td><img src="./image/toyota_corolla__466289023fx.jpg" alt="Toyota Corolla"></td>
+			</tr>
+			<tr>
+				<td rowspan="2">Nissan</td>
+				<td>Altima</td>
+				<td>2022</td>
+				<td>1 000 000 грн</td>
+				<td><img src="./image/nissan_altima__483913715fx.jpg" alt="Nissan Altima"></td>
+			</tr>
+				<tr>
+				<td>Maxima</td>
+				<td>2021</td>
+				<td>1 500 000 грн</td>
+				<td><img src="./image/nissan_maxima__455653505f.jpg" alt="Nissan Maxima"></td>
+			</tr>
+			<tr>
+				<td rowspan="2">Ford</td>
+				<td>Mustang</td>
+				<td>2020</td>
+				<td>1 800 000 грн</td>
+				<td><img src="./image/ford_mustang_gt_ford_mustang_ford_129325_800x600.jpg" alt="Ford Mustang"></td>
+			</tr>
+			<tr>
+				<td>Focus</td>
+				<td>2022</td>
+				<td>600 000 грн</td>
+				<td><img src="./image/fordfocus.JPG" alt="Ford Focus"></td>
+			</tr>
+				<tr>
+				<td rowspan="2">Kia</td>
+				<td>Sorento</td>
+				<td>2021</td>
+				<td>1 200 000 грн</td>
+				<td><img src="./image/kia_sorento_1-e1463913145814.jpg" alt="Kia Sorento"></td>
+			</tr>
+			<tr>
+				<td>Optima</td>
+				<td>2020</td>
+				<td>800 000 грн</td>
+				<td><img src="./image/kia-optima.jpeg" alt="Kia Optima"></td>
+			</tr>
+		</tbody>
+		</table>
+
+        <div style="display: flex; align-items: center; text-align: center; ">
+            <ul style="margin-left: auto;margin-right: auto;" class="ul_about">
+                    <li class="item-about"><p>Яка автомобільна компанія була заснована найпершою?</p>
+                <input type="radio" name="q1" value="a"> Ford<br>
+                <input type="radio" name="q1" value="b"> Toyota<br>
+                <input type="radio" name="q1" value="c"> Panhard & Levassor<br>
+                <input type="radio" name="q1" value="d"> BMW<br>
+            </li>
+                    <li class="item-about"><p>Скільки циліндрів було у першого автомобільного двигуна</p>
+                <input type="radio" name="q2" value="a"> 2<br>
+                <input type="radio" name="q2" value="b"> 8<br>
+                <input type="radio" name="q2" value="c"> 4<br>
+                <input type="radio" name="q2" value="d"> 6<br>
+            </li>
+                    <li class="item-about"><p>До винаходу двигуна внутрішнього згоряння автомобілі працювали на:</p>
+                <input type="radio" name="q3" value="a"> Паровій тязі<br>
+                <input type="radio" name="q3" value="b"> Електриці<br>
+                <input type="radio" name="q3" value="c"> Чесному слові<br>
+                <input type="radio" name="q3" value="d"> Реактивній тязі<br>
+            </li>
+                    <li class="item-about"><p>На початку 20-го століття в Нью-Йорку майже всі таксі були:</p>
+                <input type="radio" name="q4" value="a"> Без даху<br>
+                <input type="radio" name="q4" value="b"> Електромобілями<br>
+                <input type="radio" name="q4" value="c"> Трициклами<br>
+                <input type="radio" name="q4" value="d"> Вірменськими<br>
+            </li>
+            <li class="item-about"><p>Які автомобілі в росії будуть тепер випускатися без ABS. центрального замка та подушок безпеки?</p>
+                <input type="radio" name="q4" value="a"> LADA<br>
+                <input type="radio" name="q4" value="b"> Волга<br>
+                <input type="radio" name="q4" value="c"> КАМАЗ<br>
+                <input type="radio" name="q4" value="d"> Усі<br>
+            </li>
+            </ul>
+            </div>
+
+		</body>
+		</html>
