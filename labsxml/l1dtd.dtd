@@ -1,0 +1,12 @@
+<!ELEMENT page (title,meta,content)>
+<!ELEMENT title (#PCDATA)>
+<!ELEMENT meta EMPTY>
+<!ELEMENT content (h1,h2,p,center,list,address)>
+<!ELEMENT h1 (#PCDATA)>
+<!ELEMENT h2 (#PCDATA)>
+<!ELEMENT p (#PCDATA|strong|a)*>
+<!ELEMENT center (#PCDATA)>
+<!ELEMENT list (item,image)>
+<!ELEMENT item (#PCDATA)>
+<!ELEMENT image EMPTY>
+<!ELEMENT address (#PCDATA|strong)*> 

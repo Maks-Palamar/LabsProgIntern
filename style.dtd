@@ -1,0 +1,20 @@
+<!DOCTYPE html [
+<!ELEMENT html (head, body)>
+<!ELEMENT head (title, meta)>
+<!ELEMENT title (#PCDATA)>
+<!ELEMENT meta EMPTY>
+<!ATTLIST meta charset CDATA #REQUIRED>
+<!ELEMENT body (h1, h2, p+, ul)>
+<!ELEMENT h1 (#PCDATA)>
+<!ELEMENT h2 (#PCDATA)>
+<!ELEMENT p (#PCDATA|img)*>
+<!ATTLIST p class (left|center|right) #IMPLIED>
+<!ATTLIST p style CDATA #IMPLIED>
+<!ELEMENT img EMPTY>
+<!ATTLIST img src CDATA #REQUIRED
+			 alt CDATA #REQUIRED
+			 style CDATA #IMPLIED>
+<!ELEMENT ul (li+)>
+<!ELEMENT li (#PCDATA)>
+<!ELEMENT a (#PCDATA)>
+]>
