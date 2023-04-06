@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="ISO-8859-1"?>
+<?xml-stylesheet type="text/css" href="lab2xml.css"?>
+<CATALOG>
+  <CD>
+    <TITLE> Personal profile info </TITLE>
+    <NAME> Maksym Palamarchuk </NAME>
+    <HOBBY>Hobbies: Drumming and playing the guitar. D`n`D tabletop roleplay game</HOBBY>
+    <FAVMUSIC>Favourite music: All kinds of music, almost everything melodious </FAVMUSIC>
+    <FAVMOVIES>Favourite movies: "3.10 to Yuma", "Knives out", "Gentlemen", "Death on the Nile", "Killer`s bodyguard"</FAVMOVIES>
+    <FAVBOOKS>Favourite books: "The Martian", "A Song of Ice and Fire", "The Witcher"</FAVBOOKS>
+  </CD>
+  <CD>
+    <NAME> Volodymyr Vnukov </NAME>
+    <HOBBY>Hobbies: Depression</HOBBY>
+    <FAVMUSIC>Favourite music: "Nirvana", "Linkin Park" </FAVMUSIC>
+    <FAVMOVIES>Favourite movies: "Suicide Squad", "The Discovery", "Konstantine"</FAVMOVIES>
+    <FAVBOOKS>Favourite books: "Psykholohichna travma ta shlyakh do vyduzhuvannya"</FAVBOOKS>
+  </CD>
+</CATALOG>
+
+

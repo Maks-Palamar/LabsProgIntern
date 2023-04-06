@@ -1,0 +1,36 @@
+    CATALOG {
+        font-family: Arial, sans-serif;
+        background-color: #fff;
+        width: 100%;
+    }
+    
+    TITLE {
+        font-size: 24px;
+        font-weight: bold;
+        margin-bottom: 10px;
+        color: #2b50f1;
+        text-align: center;
+    }
+    
+    CD {
+        display: block;
+        margin-bottom: 30px;
+        margin-left: 0;
+    }
+    
+    NAME {
+        display: block;
+        font-size: 20px;
+        font-weight: bold;
+        margin-bottom: 5px;
+    }
+    
+    HOBBY,
+    FAVMUSIC,
+    FAVMOVIES,
+    FAVBOOKS {
+        display: block;
+        font-size: 16px;
+        margin-bottom: 10px;
+        margin-left: 10pt;
+    }
